@@ -11,9 +11,9 @@ function adduser() {
             <Navbar bg="main" varient='dark' sticky="top"
       expand="lg">
         <Navbar.Brand>
-          <div className="img" href="index">
+        <a href='http://localhost:3000/' className="img">
           <Image src='/logo.png' width={200} height={77} alt=""/>
-          </div>
+          </a>
         </Navbar.Brand>
 
         <Navbar.Toggle/>
@@ -103,7 +103,7 @@ function adduser() {
                                             <br/>
                                         </Form.Text>
                                     </Form.Group>
-                                    <Button type="submit" href="dashboard">
+                                    <Button type="submit" href="signup">
                                         Sign Up
                                     </Button>
                                 

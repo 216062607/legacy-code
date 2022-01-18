@@ -44,11 +44,18 @@ body {
   background-color:rgb(208, 204, 226);
  
 }
-
+ 
 .button{
   border-radius: 12px;
 }
 
+.line{
+  text-decoration: line-through;
+}
+.pad{
+  padding: 12px;
+}
+  
 .yams{
   border-radius: 12px;
 }

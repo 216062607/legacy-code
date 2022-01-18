@@ -63,7 +63,7 @@ export const team = () => {
                         <h6>Product Manager</h6>
                     </Card.Text>
                     <Card.Text>
-                    "Be the reason the world is a better place"
+                    Be the reason the world is a better place
                     <br/>
                     <br/>
                     <br/>
@@ -92,10 +92,10 @@ export const team = () => {
                         <h6>Chief Operating Officer</h6>
                     </Card.Text>
                     <Card.Text>
-                   "I think about the future a lot, the advantages that technology has, 
-                    the ability and impact it has on our daily lives"
+                   I think about the future a lot, the advantages that technology has, 
+                    the ability and impact it has on our daily lives
                     </Card.Text>
-                    <Image src="/facebook.svg" width={20} height={20}/>
+                    <Image src="/facebook.svg" width={20} height={20} alt=''/>
                 <Image src="/google.svg" variant='primary' type="submit" href="signup" width={20} height={20}alt=""/>
                 <Image src="/linkedin.svg" width={20} height={20} alt=""/>
                 <Image src="/twitter.svg" width={200} height={20} alt=""/>
@@ -113,7 +113,7 @@ export const team = () => {
                         <h6>Chief Finamcial Officer</h6>
                     </Card.Text>
                     <Card.Text>
-                   "I have always been fascinated about creating awareness regarding GBV."
+                   I have always been fascinated about creating awareness regarding GBV.
                    <br/>
                    <br/>
                     </Card.Text>
@@ -135,7 +135,7 @@ export const team = () => {
                         <h6>Marketing Officer</h6>
                     </Card.Text>
                     <Card.Text>
-                   "Abafazi is a way for us to spread awareness and help those who need help, hope for the hopeless"
+                   Abafazi is a way for us to spread awareness and help those who need help, hope for the hopeles
                    <br/>
                    <br/>
                     </Card.Text>
@@ -157,8 +157,8 @@ export const team = () => {
                         <h6>Social Media Manager</h6>
                     </Card.Text>
                     <Card.Text>
-                   "I have always wanted to bring awareness to issues affecting woman &
-                    I am grateful to be able to work alongside the creative minds that gave birth to Abafazi"
+                   I have always wanted to bring awareness to issues affecting woman &
+                    I am grateful to be able to work alongside the creative minds that gave birth to Abafazi
                     </Card.Text>
                     <Image src="/facebook.svg" width={20} height={20}/>
                 <Image src="/google.svg" variant='primary' type="submit" href="signup" width={20} height={20} alt=""/>
@@ -170,24 +170,24 @@ export const team = () => {
             </Col>
             <Col lg={4} md={6} sm={12} className="text-center mt-2 p-3">
                 <Card className="card">
-                <Card.Img variant='top' src="/Rorbeta.jpg" width={250} height={250}/>
+                <Card.Img variant='top' src="/Rorbeta.jpg" width={250} height={250} alt=""/>
                 <Card.Body>
                     <Card.Title>Roberta</Card.Title>
                     <Card.Text>
                         <h6>Research Specialist</h6>
                     </Card.Text>
                     <Card.Text>
-                    "I am motivated by making a difference within the 
-                    community that I live in and I feel as if Abafazi group has the same initiative"
+                    I am motivated by making a difference within the 
+                    community that I live in and I feel as if Abafazi group has the same initiative
                     <br/>
                     <br/>
                     
                     </Card.Text>
                     <div className="socials mt-3">
-                        <Image src="/facebook.svg" width={20} height={20}/>
-                        <Image src="/google.svg" variant='primary' type="submit" href="signup" width={20} height={20}/>
-                        <Image src="/linkedin.svg" width={20} height={20}/>
-                        <Image src="/twitter.svg" width={200} height={20}/>
+                        <Image src="/facebook.svg" width={20} height={20}alt=""/>
+                        <Image src="/google.svg" variant='primary' type="submit" href="signup" width={20} height={20} alt=""/>
+                        <Image src="/linkedin.svg" width={20} height={20} alt=""/>
+                        <Image src="/twitter.svg" width={200} height={20} alt=""/>
                     </div>
                                 
                 </Card.Body>

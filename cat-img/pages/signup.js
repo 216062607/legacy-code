@@ -5,7 +5,7 @@ import {Button, Col, Row, Container, Form, Card, Alert, error,Navbar,Nav, NavDro
 
 //import {vercel} from '../public/vercel.svg'
 
-export default function signup (){
+ function Signup (){
     return (
         <div>
 
@@ -65,7 +65,7 @@ export default function signup (){
                                             <br/>
                                         </Form.Text>
                                     </Form.Group>
-                                    <Button variant="primary" className="w-100 h-60" type="submit" href="adduser">
+                                    <Button variant="primary" className="w-100 h-60" type="submit" href="dashboard">
                                         Sign Up
                                     </Button>
                                 
@@ -84,4 +84,4 @@ export default function signup (){
         </div>
     )
 }
- 
+export default Signup

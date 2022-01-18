@@ -50,7 +50,8 @@ function product() {
         <div className="content2">
             <div className="text-center mt-2 p-3">
 
-            <h1>Key Focus Categories</h1>
+            <h1>PRICING</h1>
+            <h6>Flexible packages to suit your use-case. Choose between Free, Pay-as-you-Use and Subscription plans.</h6>
             
             </div>
             <Container className="mt-2">
@@ -60,17 +61,26 @@ function product() {
                     
                     <Card.Img variant='top' src="/auth1.svg" width={200} height={200} className="mt-2"/>
                 <Card.Body>
-                    <Card.Title>Pitch Decks</Card.Title>
+                    <Card.Title>LITE</Card.Title>
                    <ListGroup variant="flush">
                        <ListGroup.Item>Live Location</ListGroup.Item>
                        <ListGroup.Item>Add 3 Members</ListGroup.Item>
                        <ListGroup.Item>2 Emergency Calls</ListGroup.Item>
+                       <div className='line'>
                        <ListGroup.Item>Social Media Sync</ListGroup.Item>
-                       <ListGroup.Item><h6>R29.99/pm</h6></ListGroup.Item>
+                       </div>
+                       <div className='line'>
+                       <ListGroup.Item>e-Hailing Sync</ListGroup.Item>
+                       </div>
+                       <div className='line'>
+                       <ListGroup.Item>24 hours services</ListGroup.Item>
+                       </div>
+                     
+                       <ListGroup.Item><h6>R29.99/monthly.Billed R329.99</h6></ListGroup.Item>
                    </ListGroup>
                   
-                    <Button variant='primary' className="w-100" href="donate"> 
-                        Buy
+                   <Button variant='outline-primary' href="dashboard" className="w-100 line2">{''}
+                                        GET STARTED 
                     </Button>
                         
                 </Card.Body>
@@ -81,17 +91,24 @@ function product() {
                     
                     <Card.Img variant='top' src="/liveloc.svg" width={200} height={200} className="mt-2"/>
                 <Card.Body>
-                    <Card.Title>Pitch Decks</Card.Title>
+                    <Card.Title>PLUS</Card.Title>
                     <ListGroup variant="flush">
                        <ListGroup.Item>Live Location</ListGroup.Item>
                        <ListGroup.Item>Add 5 Members</ListGroup.Item>
                        <ListGroup.Item>10 Emergency Calls</ListGroup.Item>
                        <ListGroup.Item>Social Media Sync</ListGroup.Item>
-                       <ListGroup.Item><h6>R59.99/pm</h6></ListGroup.Item>
+                       <div className='line'>
+                       <ListGroup.Item>e-Hailing Sync</ListGroup.Item>
+                       </div>
+                       <div className='line'>
+                       <ListGroup.Item>24 hours services</ListGroup.Item>
+                       </div>
+                       
+                       <ListGroup.Item><h6>R59.99/monthly.Billed R559.99</h6></ListGroup.Item>
                    </ListGroup>
                    
-                    <Button variant='primary' className="w-100" href="donate"> 
-                        Buy
+                   <Button variant='outline-primary' href="dashboard" className="w-100 line2">{''}
+                                        GET STARTED 
                     </Button>
                         
                 </Card.Body>
@@ -101,7 +118,7 @@ function product() {
                 <Card className="card">
                 <Card.Img variant='top' src="/user2.svg" width={200} height={200} className="mt-2"/>
                 <Card.Body>
-                    <Card.Title>Angel Investor</Card.Title>
+                    <Card.Title>PREMIUM</Card.Title>
                     <ListGroup variant="flush">
                        <ListGroup.Item>Live Location</ListGroup.Item>
                        <ListGroup.Item>Add 10 Members</ListGroup.Item>
@@ -109,12 +126,12 @@ function product() {
                        <ListGroup.Item>Social Media Sync</ListGroup.Item> 
                        <ListGroup.Item>e-Hailing Sync</ListGroup.Item>
                        <ListGroup.Item>24 hours services</ListGroup.Item>
-                       <ListGroup.Item><h6>R89.99/pm</h6></ListGroup.Item>
+                       <ListGroup.Item><h6>R89.99/monthly.Billed R989.99</h6></ListGroup.Item>
                        
                    </ListGroup>
                     
-                    <Button type="submit" href="dashboard" className="w-100">
-                                        Sign Up
+                    <Button variant='outline-primary' href="dashboard" className="w-100 line2">{''}
+                                        GET STARTED 
                     </Button>
                                 
                 </Card.Body>

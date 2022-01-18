@@ -9,14 +9,17 @@ import {location} from '../public/location.svg'
 //require ('dotenv').config();
 
 
-function app(){
+function Dashboard(){
   return(
     <div className='app'>
       <Navbar bg="main" varient='dark'
       sticky='top'expand="lg">
         <Navbar.Brand>
-          <img src=''/>
-          Logo
+        <div className="img" href="index">
+            <a href='http://localhost:3000/' className="img">
+          <Image src='/logo.png' width={200} height={77} href="index" alt=""/>
+          </a>
+          </div>
         </Navbar.Brand>
 
         <Navbar.Toggle/>
@@ -41,7 +44,9 @@ function app(){
        
       </Navbar>
       <div className='content'>
-        <Image src={location} alt=""/>
+        <a href='product'>
+        <Image src="/location.svg" layout="fill" />
+        </a>
       </div>
 
 
@@ -50,6 +55,6 @@ function app(){
 
   );
 }
-export default app;
+export default Dashboard;
 
 
