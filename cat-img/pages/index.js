@@ -23,7 +23,7 @@ function app(){
       <LandPage/>
       <Hero/>
       <Hero2/>
-      
+      <Work/>
       <Footer/>
 
     
