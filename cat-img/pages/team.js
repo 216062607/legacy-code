@@ -160,7 +160,9 @@ export const team = () => {
                    I have always wanted to bring awareness to issues affecting woman &
                     I am grateful to be able to work alongside the creative minds that gave birth to Abafazi
                     </Card.Text>
+                    <a href='signup'>
                     <Image src="/facebook.svg" width={20} height={20}/>
+                    </a>
                 <Image src="/google.svg" variant='primary' type="submit" href="signup" width={20} height={20} alt=""/>
                 <Image src="/linkedin.svg" width={20} height={20} alt=""/>
                 <Image src="/twitter.svg" width={200} height={20} alt=""/>

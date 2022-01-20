@@ -1,5 +1,7 @@
 html,
 body {
+  height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -39,8 +41,8 @@ body {
  
 }
 .content5{
-  padding: 12px;
-  height:700px;
+  padding: 0;
+  height:100%;
   background-color:rgb(208, 204, 226);
  
 }

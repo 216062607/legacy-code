@@ -21,21 +21,15 @@ function Footer() {
         </Navbar.Brand>
 
         <Navbar.Toggle/>
-        <Navbar.Collapse className="right">
-        <Nav>
-
-          <Nav.Link href="product">FEATURES</Nav.Link>
-          <Nav.Link href="team"> ABOUT US</Nav.Link>
-          <Nav.Link href="products">CAREERS</Nav.Link>
-          <Nav.Link href="adduser">SIGN UP</Nav.Link>
-          <Col >
-          <Button variant="outline-primary" type="submit" href="signup" className='pad'> LOG IN 
-          </Button>{''}
-          </Col>
-          
-        </Nav>
-
-        </Navbar.Collapse>
+              
+                <a href='signup'>
+                <Image src="/facebook.svg" width={200} height={20}/>
+                </a>
+                <Image src="/google.svg"  width={200} height={20} alt=""/>
+                <Image src="/linkedin.svg" width={200} height={20} alt=""/>
+                <Image src="/twitter.svg" width={200} height={20} alt=""/>
+               
+                        
        
       </Navbar>
       </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

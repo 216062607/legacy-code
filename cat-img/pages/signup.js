@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Footer from '../components/footer'
 import 'bootstrap/dist/css/bootstrap.css'
 import {Button, Col, Row, Container, Form, Card, Alert, error,Navbar,Nav, NavDropdown} from 'react-bootstrap'
 
@@ -80,6 +81,7 @@ import {Button, Col, Row, Container, Form, Card, Alert, error,Navbar,Nav, NavDro
 
                         </Container>
                         </div>
+                 <Footer/>
             
         </div>
     )
