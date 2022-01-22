@@ -21,19 +21,12 @@ function product() {
         <Navbar.Toggle/>
         <Navbar.Collapse className="right">
         <Nav>
+            <Nav.Link href = "http://localhost:3000/">HOME</Nav.Link>
+            <Nav.Link href = "products">CAREERS</Nav.Link>
+            <Nav.Link href = "products">BLOG</Nav.Link>
+            <Nav.Link href = "products">CONTACT</Nav.Link>
+            <Nav.Link href = "products">DONATE</Nav.Link>
 
-          <NavDropdown title="Products">
-            <NavDropdown.Item href="products/product 1">Free Tier</NavDropdown.Item>
-            <NavDropdown.Item href="products/product 2">Premium</NavDropdown.Item>
-            <NavDropdown.Item href="products/product 3">Ultimate</NavDropdown.Item>
-          </NavDropdown>
-          <NavDropdown title="About Us">
-             <NavDropdown.Item href="About Us/ Background">Background</NavDropdown.Item>
-            <NavDropdown.Item href="team">Meet The Team</NavDropdown.Item>
-            <NavDropdown.Item href="About Us/Mission Statement">Mission and Vission</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="products">Careers</Nav.Link>
-          <Nav.Link href="signup">Log in </Nav.Link>
           
         </Nav>
 
@@ -76,7 +69,7 @@ function product() {
                        <ListGroup.Item>24 hours services</ListGroup.Item>
                        </div>
                      
-                       <ListGroup.Item><h6>R29.99/monthly.Billed R329.99</h6></ListGroup.Item>
+                       <ListGroup.Item><h6>R29.99/monthly.Billed R329.99 yearly</h6></ListGroup.Item>
                    </ListGroup>
                   
                    <Button variant='outline-primary' href="dashboard" className="w-100 line2">{''}
@@ -104,7 +97,7 @@ function product() {
                        <ListGroup.Item>24 hours services</ListGroup.Item>
                        </div>
                        
-                       <ListGroup.Item><h6>R59.99/monthly.Billed R559.99</h6></ListGroup.Item>
+                       <ListGroup.Item><h6>R59.99/monthly.Billed R559.99 yearly</h6></ListGroup.Item>
                    </ListGroup>
                    
                    <Button variant='outline-primary' href="dashboard" className="w-100 line2">{''}
@@ -126,7 +119,7 @@ function product() {
                        <ListGroup.Item>Social Media Sync</ListGroup.Item> 
                        <ListGroup.Item>e-Hailing Sync</ListGroup.Item>
                        <ListGroup.Item>24 hours services</ListGroup.Item>
-                       <ListGroup.Item><h6>R89.99/monthly.Billed R989.99</h6></ListGroup.Item>
+                       <ListGroup.Item><h6>R89.99/monthly.Billed R989.99 yearly</h6></ListGroup.Item>
                        
                    </ListGroup>
                     
