@@ -14,7 +14,7 @@ function Work(){
             
             <Row>
             <Col lg={4} md={6} sm={12} className="text-center mt-2 p-3">
-                <Card className="card">
+                <Card className="yams">
                     
                     <Card.Img variant='top' src="/mngani.svg" width={200} height={200} className="mt-2"/>
                 <Card.Body>

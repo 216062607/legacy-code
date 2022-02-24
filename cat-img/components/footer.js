@@ -6,34 +6,16 @@ import {Nav,Navbar, NavDropdown, Button, Carousel, Col, Row, Container , Card,Fo
 
 function Footer() {
     return (
-        <div>
-                  <div className='app'>
-      
-    
-      <Navbar bg="main" varient='dark' 
-      expand="lg">
-        <Navbar.Brand>
-          <div className="img" href="index">
-            <a href='#' className="img">
-          <Image src='/logo.png' width={200} height={77} href="index" alt=""/>
-          </a>
-          </div>
-        </Navbar.Brand>
-
-        <Navbar.Toggle/>
-              
-                <a href='signup'>
-                <Image src="/facebook.svg" width={200} height={20}/>
-                </a>
-                <Image src="/google.svg"  width={200} height={20} alt=""/>
-                <Image src="/linkedin.svg" width={200} height={20} alt=""/>
-                <Image src="/twitter.svg" width={200} height={20} alt=""/>
-               
-                        
-       
-      </Navbar>
-      </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-        </div>
+        <div className='footer' >
+          <div className='socialmedia'>
+        
+                <Image src="/facebook.svg" width={20} height={20}/>
+                <Image src="/google.svg" width={20} height={20} alt=""/>
+                <Image src="/linkedin.svg" width={20} height={20} alt=""/>
+                <Image src="/twitter.svg" width={20} height={20} alt=""/> 
+      </div>                                                                    
+      <p>&copy; Designed and Developed By Weza 2022</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+       </div>
     )
 }
 

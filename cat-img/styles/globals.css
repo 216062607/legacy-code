@@ -8,21 +8,30 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   
 }
-.icon{
-  
-  background-color: palevioletred;
-  color: rgb(96, 9, 122);
-
+.app{
+  height: 200%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 
 }
+
 .bg-main{
   background-color: whitesmoke(128, 0, 122, 0.966);
 }
 
 .content{
   padding: 12px;
-  height:600px;
-  background-color:whitesmoke;
+  height:500px;
+  background-color:rgb(245, 245, 245);
+  border-radius: 12px;
+
+
+}
+.contenth{
+  padding: 12px;
+  height:500px;
+  background-color:rgb(245, 245, 245);
   border-radius: 12px;
 
 
@@ -36,17 +45,43 @@ body {
 }
 .content3{
   padding: 12px;
-  height:1250px;
+  height: 500px;;
   background-color:rgb(208, 204, 226);
  
 }
 .content5{
   padding: 0;
-  height:100%;
+  height:50%;
   background-color:rgb(208, 204, 226);
  
 }
- 
+.lp{
+  padding: 12px;
+  height: 100%;
+  background-color:rgb(208, 204, 226);
+} 
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(136, 122, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  box-shadow: purple;  
+
+}
+
+.socialmedia svg{
+  color: aqua;
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+
+}
+
 .button{
   border-radius: 12px;
 }
@@ -85,8 +120,8 @@ body {
   justify-content: center;
 
 }
-.yams:hover{
-  box-shadow: purple;
+.footer:hover{
+  box-shadow: purple;  
 }
 
 .Signup {

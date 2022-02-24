@@ -5,7 +5,7 @@ import {Nav,Navbar, NavDropdown, Button, Carousel, Col, Row, Container , Card,Fo
 
 function Hero2 (){
     return(
-        <div className='content'>
+        <div className='contenth'>
 
                 <Container className="mt-10">
                   <Row>
